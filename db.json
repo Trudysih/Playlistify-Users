@@ -1,0 +1,27 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Tommy",
+      "name": "Tommy Tan"
+    },
+    {
+      "id": 2,
+      "username": "John",
+      "name": "John Lee"
+      
+    },
+    {
+      "id": 3,
+      "username": "Sara",
+      "name": "Sara Chan"
+      
+    },
+    {
+      "id": 4,
+      "username": "Janet",
+      "name": "Janet Wee"
+      
+    }
+  ]
+}
