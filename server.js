@@ -14,6 +14,10 @@ router.get('/api/users', function *(next) {
   this.body = db.users;
 });
 
+router.get('/api/users/:userId', function *(next) {
+  const id = parseInt(this.params.userId);
+  this.body = db.users.find((user) => user.id == id);
+});
 
 router.get('/api/', function *() {
   this.body = "API ready to receive requests";
